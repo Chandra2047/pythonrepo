@@ -3,7 +3,7 @@ services:
     image: apurwasingh/flask
     container_name: flask
     ports:
-      - "8001:7000"
+      - "9001:7000"
     volumes:
       - .:/app
     environment:
